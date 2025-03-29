@@ -1,3 +1,12 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "kramdown-parser-gfm"
+gem "webrick"
 gem "csv"
-gem "no-style-please"
+gem "bigdecimal"
 gem "base64"
+gem "logger"
+
+gemspec
