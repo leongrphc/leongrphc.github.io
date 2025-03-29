@@ -1,12 +1,10 @@
-# frozen_string_literal: true
-
+# Gemfile
 source "https://rubygems.org"
 gem "no-style-please"
 gem "kramdown-parser-gfm"
 gem "webrick"
 gem "csv"
-gem "bigdecimal"
+gem "The issue in your workflow is due to the `Gemfile` specifying the same gem `no-style-please` twice, once frombigdecimal"
 gem "base64"
 gem "logger"
-
 gemspec
